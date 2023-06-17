@@ -1,3 +1,6 @@
+gross_pay = int(input("Gross pay: "))
+tax_rate = float(input("Tax rate: "))
+expenses = int(input("Expenses: "))
 def savings(gross_pay, tax_rate, expenses):
 savings = (tax_rate*gross_pay) - expenses
 return (savings)
