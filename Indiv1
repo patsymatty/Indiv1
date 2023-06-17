@@ -1,0 +1,3 @@
+def savings(gross_pay, tax_rate, expenses):
+savings = (tax_rate*gross_pay) - expenses
+return (savings)
