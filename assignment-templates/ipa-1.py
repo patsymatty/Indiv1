@@ -1,5 +1,5 @@
 #This function calculates the money remaining
-        for an employee after taxes and expenses.
+        #for an employee after taxes and expenses.
 
 gross_pay = int(input("Gross pay: "))
 tax_rate = float(input("Tax rate: "))
@@ -13,8 +13,8 @@ result = savings(gross_pay, tax_rate, expenses)
 print(result)
 -----
 # This function calculates how much material input will be wasted
-        after running a certain number of jobs that consume
-        a set amount of material.
+        #after running a certain number of jobs that consume
+        #a set amount of material.
 
 total_material = int(input("Total Material: "))
 num_jobs = int(input("Number of Jobs: "))
@@ -29,7 +29,7 @@ result = material_waste(total_material, material_units, num_jobs, job_consumptio
 print(result, material_units, sep="")
 -----
 #This function calculates the final value of an investment after
-        gaining simple interest over a number of periods.
+        #gaining simple interest over a number of periods.
 
 import math
 
@@ -46,7 +46,7 @@ round_down = math.floor(result)
 print(round_down)
 -----
 #This function calculates the body mass index (BMI) of a person
-        given their weight and height.
+        #given their weight and height.
 
 weight = float(input("Weight in pounds: "))
 height = list(map(int, input("Height in inches: ").split()))
